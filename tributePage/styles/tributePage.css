@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+ 
+ h1, h3, h4 {
+     text-align: center;
+     font-family: 'Work Sans', sans-serif;
+ }
+
+ #titles {
+     background-color: rgb(238, 235, 235);
+ }
+
+ #info {
+    background-color: rgb(238, 235, 235); 
+}
+
+ #img-div {
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+ }
+
+ #img-caption {
+    font-family: 'Oswald', sans-serif;
+ }
+
+ #image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    border-radius: 40px;
+ }
+
+ #tribute-info{
+     display: flex;
+     flex-direction: column;
+     width: 600px;
+     margin: 0 auto;
+     line-height: 1.5em;
+     font-family: 'Oswald', sans-serif;
+ }
+
+  li {
+      margin-top: 10px;
+  }
