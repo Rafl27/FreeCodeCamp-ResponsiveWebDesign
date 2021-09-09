@@ -5,22 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Survey form</title>
-    <link rel="stylesheet" href="styles/surveyPage.css">
+    <link rel="stylesheet" href="styles/surveyPage.css" />
   </head>
 
   <body>
-      <div class="backgroundImage"></div>
     <main>
-        <div id="titles">
-      <h1 id="title">Formula1 survey form</h1>
-      <p id="description">
-        Thank you for taking the time to help us improve the platform
-      </p>
-    </div>
+      <div id="titles">
+        <h1 id="title">Formula1 survey form</h1>
+        <p id="description">
+          Thank you for taking the time to help us improve the platform
+        </p>
+      </div>
       <form action="#" id="survey-form">
         <div class="textInputs">
           <label for="name" id="name-label">Name</label>
-          <input type="text" required id="name" placeholder="Enter your name" />
+          <input type="text" required id="name" placeholder="Enter your name" /><br>
+          <label for="age" id="number-label">Age</label>
+          <input
+            type="number"
+            id="number"
+            name="age"
+            min="10"
+            max="130"
+            size="50"
+            placeholder="10"
+          />
           <label for="email" id="email-label">Email</label>
           <input
             type="email"
@@ -28,58 +37,56 @@
             id="email"
             placeholder="Enter your email"
           />
-          <label for="age" id="number-label">Age</label>
-          <input
-            type="number"
-            id="number"
-            name="age"
-            min="5"
-            max="130"
-            size="50"
-            placeholder="XX"
-          />
         </div>
         <label for="dropdown" id="dropdown-label"
-          >Which option best describes your current role?</label
+          >Which option best describes your familiarity with Formula1?</label
         >
         <select name="dropdown" id="dropdown">
           <!--should fix the default value-->
-          <option value="professor">professor</option>
-          <option value="student">student</option>
-          <option value="test">test</option>
+          <option value="New">New</option>
+          <option value="I know a few things">I know a few things</option>
+          <option value="Watch races every weekend">
+            Watch races every weekend
+          </option>
         </select>
-        <p>Would you recommend freeCodeCamp to a friend?</p>
+        <p id="interestFormula">Why are you interested in Formula1?</p>
         <div id="radios">
-          <label for="recomendation" id="definitively-label"
-            >definitively</label
-          >
+          <label for="recomendation" id="cars-label">Cars</label>
+          <input type="radio" name="recomendation" id="Cars" value="Cars" />
+          <label for="recomendation" id="competition-label">competition</label>
           <input
             type="radio"
             name="recomendation"
-            id="definitively"
-            value="definitively"
+            id="competition"
+            value="competition"
           />
-          <label for="recomendation" id="maybe-label">maybe</label>
-          <input type="radio" name="recomendation" id="maybe" value="maybe" />
-          <label for="recomendation" id="no-label">no</label>
+          <label for="recomendation" id="engineering-label">Engineering</label>
           <input type="radio" name="recomendation" id="no" value="no" />
         </div>
         <div id="checkboxes">
-          <p class="checkboxDescription">
-            What is your favorite feature of freeCodeCamp?
-          </p>
-          <label for="codes">codes</label>
-          <input type="checkbox" value="codes" name="codes" />
-          <label for="texts">texts</label>
-          <input type="checkbox" value="texts" name="texts" />
-          <label for="images">images</label>
-          <input type="checkbox" value="images" name="images" />
+          <p class="checkboxDescription">What are your favorite teams?</p>
+          <label for="redbull">Red Bull</label>
+          <input type="checkbox" value="redbull" name="redbull" />
+          <label for="ferrari">Ferrari</label>
+          <input type="checkbox" value="ferrari" name="ferrari" />
+          <label for="mercedes">Mercedes</label>
+          <input type="checkbox" value="mercedes" name="mercedes" />
+          <label for="maclaren">Maclaren</label>
+          <input type="checkbox" value="maclaren" name="maclaren" />
+          <label for="alfaromeo">Alfa Romeo</label>
+          <input type="checkbox" value="alfaromeo" name="alfaromeo" />
         </div>
         <div class="questions">
-            <p>any questions?</p>
-            <textarea name="comments" id="textArea" cols="30" rows="10" placeholder="enter your comment here my dude"></textarea>
+          <p>Feel free to tell us anything else!</p>
+          <textarea
+            name="comments"
+            id="textArea"
+            cols="30"
+            rows="10"
+            placeholder="enter your comment here my dude"
+          ></textarea>
         </div>
-        <input type="submit" id="submit">
+        <input type="submit" id="submit" value="Send" />
       </form>
     </main>
 
