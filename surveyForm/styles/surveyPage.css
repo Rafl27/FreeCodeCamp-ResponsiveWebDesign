@@ -7,19 +7,60 @@ body{
   color: white;
   font-size: 1.5em;
   background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2013/03/14/52216/4f73e84228aa0de1fb16a625b1f43ab3-700.jpg");
-  background-size: contain;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 input{
   height: 28px;
+  border-radius: 10px;
+  display: inline-block;
+  vertical-align: -4px;
+}
+#radios{
+  line-height: 1em;
+  text-align: center;
 }
 #name {
-  width: 400px;
+  width: 300px;
+}
+#email {
+  width: 300px;
 }
 form {
   background-color: rgba(148, 148, 148, 0.5);
 }
 #interestFormula{
-  align-items: center;
+  text-align: center;
+  margin-bottom: 0.3em;
+  color: black;
+}
+.checkboxDescription{
+  margin-bottom: 1px;
+  color: black;
+}
+#checkboxes{
+  text-align: center;
+}
+#dropdown-label{
+  color: black;
+}
+#submit{
+  display: block;
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: #37af65;
+}
+#feelFree{
+  text-align: center;
+  color: black;
+}
+#textArea{
+  width: 90%;
+ display: block;
+ margin: 0 auto;
 }
 #survey-form {
   display: flex;
