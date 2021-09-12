@@ -1,34 +1,63 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="styles/landing.css">
+    <title>landing page</title>
+    <link rel="stylesheet" href="styles/landingPage.css">
 </head>
-<body>
-    <header id="header">
-        <img src="" alt="companyLogo" id="header-img">
-        <p></p>
-        <nav id="nav-bar">
-            <ul class="ul-navBar"> <!--I still need to take the user to the corresponding section of the page-->
-                <li class="nav-link"><a href="">test</a></li>
-                <li class="nav-link"><a href="">test</a></li>
-                <li class="nav-link"><a href="">test</a></li>
-            </ul>
-        </nav>
-        <div id="videoFrame"">
-            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/XhjymEZh0LE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <form action="submit" id="form">
-            <label for="inputEmail">enter your email here</label>
-            <input type="text" placeholder="enter email" name="inputEmail">
-            
-        </form>
-    </header>
-    <main>
-    </main>
+<header id="header">
+    <img src="images/Manga-Boy-PNG-HD-Image.png" alt="company-logo" id="header-img">
+    <h1 id="title">Manga! MadeQuick!</h1>
+    <nav id="nav-bar">
+        <ul>
+            <li>
+                <a href="google.com" class="nav-link">Prices</a>
+            </li>
+            <li>
+                <a href="google.com" class="nav-link">Collections</a>
+            </li>
+            <li>
+                <a href="google.com" class="nav-link">Cart</a>
+            </li>
+        </ul>
+    </nav>
+</header>
 
+<body>
+    <div id="benefits">
+        <h3 id="descriptionBenefits">Receive them quickly, with the care your favorite manga deserves!</h3>
+        <h3 class="iconText"><img src="icons/delivery.png" class="iconsPng" alt="delivery-icon"><i>Fast shipping</i>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, obcaecati, dolor odit libero ipsam ipsa similique impedit, non tempore debitis fuga quaerat veritatis dicta voluptas error labore maiores nisi at.</p>
+        </h3>
+        <h3 class="iconText"><img src="icons/quality.png" class="iconsPng" alt="quality-icon"><i>The best quality</i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, provident! Animi nostrum quae quis, perferendis ex neque incidunt hic voluptates nihil fugiat. Debitis doloremque repellendus quam odit maxime, distinctio dicta!</p>
+        </h3>
+        <h3 class="iconText"><img src="icons/manga.png" class="iconsPng" alt="manga-icon"><i>All in one place</i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam molestias obcaecati vero ipsa odio mollitia, consequuntur eligendi voluptatum earum architecto deleniti, officia quas autem. Aut, doloremque eum! Nostrum, alias voluptatibus!</p>
+        </h3>
+    </div>
+    <div class="form">
+        <p id="subscribeText">Subscribe to our NewsLetter and receive the best DEALS!</p>
+        <form action="https://www.freecodecamp.org/email-submit" id="form">
+            <label for="email" id="emailLabel">Enter bellow your email </label><br>
+            <input type="email" id="email" name="email" required placeholder="email"><br>
+            <input type="submit" id="submit" value="SEND">
+        </form>
+    </div>
+
+    <div class="card">
+        <img src="images/collections/berserkCollection.png" alt="berserk-Collection" class="boxImage">
+        <div class="container">
+            <h4>Berserk Collection</h4>
+            <p>29.99$</p>
+        </div>
+    </div>
+
+
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/FDIRYGsg6l0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
 </html>
