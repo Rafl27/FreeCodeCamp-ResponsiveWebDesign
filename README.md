@@ -1,6 +1,6 @@
-# resposiveWebDesignProjects
+# Web Design Projects
 
-Here are some projects from the FreeCodeCamp Responsive Web Design.
+Here are some projects from the FreeCodeCamp Responsive Web Design Course.
 
 Bellow are the links for each project: 
 
