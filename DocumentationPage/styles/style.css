@@ -1,0 +1,13 @@
+#navbar {
+    position: fixed;
+    overflow: scroll;
+    height: 100%;
+    width: 30%;
+    font-size: 2em;
+}
+
+.main-section {
+    grid-column-start: 2;
+    padding: 12px;
+    margin-left: 30%;
+}
