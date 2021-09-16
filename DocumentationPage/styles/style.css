@@ -1,13 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 #navbar {
     position: fixed;
     overflow: scroll;
     height: 100%;
     width: 30%;
     font-size: 2em;
+    margin-left: -2%;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#navbarTitle {
+    font-size: 1em !important;
+    text-align: center;
 }
 
 .main-section {
     grid-column-start: 2;
     padding: 12px;
     margin-left: 30%;
+    font-size: 1.4em;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em !important;
+}
+
+#navbar li {
+    list-style-type: none;
+    margin-top: 8px;
 }
