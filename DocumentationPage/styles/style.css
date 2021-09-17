@@ -9,6 +9,14 @@
     font-family: 'Bebas Neue', cursive;
 }
 
+nav {
+    display: block;
+}
+
+#main-doc {
+    background-color: rgb(212, 211, 211);
+}
+
 #navbarTitle {
     font-size: 1em !important;
     text-align: center;
@@ -24,6 +32,11 @@
 h1 {
     font-family: 'Bebas Neue', cursive;
     font-size: 2em !important;
+}
+
+#navBarTitle {
+    font-size: 1em !important;
+    text-align: center;
 }
 
 #navbar li {
