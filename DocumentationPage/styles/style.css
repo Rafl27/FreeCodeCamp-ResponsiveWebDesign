@@ -9,12 +9,12 @@
     font-family: 'Bebas Neue', cursive;
 }
 
-nav {
-    display: block;
+body {
+    background-color: rgb(212, 211, 211);
 }
 
-#main-doc {
-    background-color: rgb(212, 211, 211);
+nav {
+    display: block;
 }
 
 #navbarTitle {
@@ -42,4 +42,31 @@ h1 {
 #navbar li {
     list-style-type: none;
     margin-top: 8px;
+}
+
+@media screen and (max-width: 900px) {
+    #navbar {
+        position: relative;
+        height: 300px;
+        overflow: scroll;
+        width: auto;
+        margin: 0 auto;
+        font-size: 1.5em;
+        border: 2px solid;
+        padding-top: 6px;
+        text-align: left;
+    }
+    #navbar li {
+        border: 1px solid;
+    }
+    #navbar ul {
+        padding-inline-start: 0px;
+        text-align: center;
+    }
+    .main-section {
+        margin: 0 auto;
+    }
+    body {
+        margin: 0 auto;
+    }
 }
